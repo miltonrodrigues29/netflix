@@ -8,3 +8,4 @@ ReactDOM.render(
   </React.StrictMode>,
   document.getElementById("root")
 );
+//rendering this to div in index.html file with id root
