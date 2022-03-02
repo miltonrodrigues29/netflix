@@ -5,7 +5,7 @@ export const Home = () => {
   return (
     <div className="home">
       <Navbar></Navbar>
-      <Featured type="movie"></Featured>
+      <Featured type="series"></Featured>
     </div>
   );
 };
