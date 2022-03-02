@@ -1,3 +1,4 @@
+import Featured from "../components/featured/Featured";
 import Navbar from "../components/navbar/Navbar";
 import "./home.scss";
 export const Home = () => {
@@ -9,6 +10,7 @@ export const Home = () => {
         src="https://wallpapercave.com/wp/wp5289106.jpg"
         alt=""
       ></img>
+      <Featured></Featured>
     </div>
   );
 };
