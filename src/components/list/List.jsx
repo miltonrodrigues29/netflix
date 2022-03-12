@@ -37,16 +37,16 @@ export default function List() {
           style={{ display: !isMoved && "none" }}
         ></ArrowBackIosOutlined>
         <div className="container" ref={listRef}>
-          <ListItem></ListItem>
-          <ListItem></ListItem>
-          <ListItem></ListItem>
-          <ListItem></ListItem>
-          <ListItem></ListItem>
-          <ListItem></ListItem>
-          <ListItem></ListItem>
-          <ListItem></ListItem>
-          <ListItem></ListItem>
-          <ListItem></ListItem>
+          <ListItem index={0}></ListItem>
+          <ListItem index={1}></ListItem>
+          <ListItem index={2}></ListItem>
+          <ListItem index={3}></ListItem>
+          <ListItem index={4}></ListItem>
+          <ListItem index={5}></ListItem>
+          <ListItem index={6}></ListItem>
+          <ListItem index={7}></ListItem>
+          <ListItem index={8}></ListItem>
+          <ListItem index={9}></ListItem>
         </div>
         <ArrowForwardIosOutlined
           className="sliderArrow right"
