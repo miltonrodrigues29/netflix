@@ -1,13 +1,13 @@
 .navbar {
+  width: 100%;
   color: white;
   font-size: 14px;
   position: fixed;
   top: 0;
-  width: 100%;
   z-index: 999;
   background: linear-gradient(to top, transparent 0%, rgb(0, 0, 0, 0.3) 50%);
 
-  &.scrolled {
+  &.scrolled{
     background-color: var(--main-color);
   }
 
@@ -17,10 +17,10 @@
     align-items: center;
     justify-content: space-between;
     height: 70px;
+
     .left {
       display: flex;
       align-items: center;
-      justify-content: space-between;
 
       img {
         height: 25px;
@@ -41,10 +41,11 @@
         margin: 0px 15px;
         cursor: pointer;
       }
+
       img {
-        border-radius: 5%;
         width: 30px;
         height: 30px;
+        border-radius: 5px;
         object-fit: cover;
         cursor: pointer;
       }

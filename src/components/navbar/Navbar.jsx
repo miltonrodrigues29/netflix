@@ -1,7 +1,8 @@
-import "./navbar.scss";
 import { ArrowDropDown, Notifications, Search } from "@material-ui/icons";
 import { useState } from "react";
-export default function Navbar() {
+import "./navbar.scss";
+
+const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
 
   window.onscroll = () => {
@@ -13,26 +14,25 @@ export default function Navbar() {
       <div className="container">
         <div className="left">
           <img
-            src="https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg"
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Netflix_2015_logo.svg/2560px-Netflix_2015_logo.svg.png"
             alt=""
-            className="img"
-          ></img>
-          <span>Home Page</span>
+          />
+          <span>Homepage</span>
           <span>Series</span>
           <span>Movies</span>
           <span>New and Popular</span>
           <span>My List</span>
         </div>
         <div className="right">
-          <Search className="icon"></Search>
-          <span>Children</span>
-          <Notifications className="icon"></Notifications>
+          <Search className="icon" />
+          <span>KID</span>
+          <Notifications className="icon" />
           <img
-            src="https://avatars.githubusercontent.com/u/56884655?s=400&u=ad79cca06cc501dd2ef0e17895bf272d0e53f35d&v=4"
+            src="https://images.pexels.com/photos/6899260/pexels-photo-6899260.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
             alt=""
-          ></img>
+          />
           <div className="profile">
-            <ArrowDropDown className="icon"></ArrowDropDown>
+            <ArrowDropDown className="icon" />
             <div className="options">
               <span>Settings</span>
               <span>Logout</span>
@@ -42,4 +42,6 @@ export default function Navbar() {
       </div>
     </div>
   );
-}
+};
+
+export default Navbar;
