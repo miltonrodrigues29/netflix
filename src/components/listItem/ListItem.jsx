@@ -19,7 +19,7 @@ export default function ListItem({ index }) {
       onMouseLeave={() => setIsHovered(false)}
     >
       <img
-        src="https://occ-0-1723-92.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABU7D36jL6KiLG1xI8Xg_cZK-hYQj1L8yRxbQuB0rcLCnAk8AhEK5EM83QI71bRHUm0qOYxonD88gaThgDaPu7NuUfRg.jpg?r=4ee"
+        src="https://occ-0-1723-1722.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABdQH0TM0UJuf8FpVGvd-frOckh2qInvspVQrL5tr4mCZSYBkxcvAaRqEZskLiFi_1wsMWvwd3jg5DOMYapyNc5d_AeLz.jpg?r=ed1"
         alt=""
       />
       {isHovered && (
